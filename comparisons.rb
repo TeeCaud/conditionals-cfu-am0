@@ -53,21 +53,21 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # Make sure YOU can explain it that way!
 
 puts 4 < 9
-#YOU DO: Explain.
+True. 4 is less than 9
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+False. 4 is more than 3
 
 friends = 6
 siblings = 2
 puts friends > siblings
-# YOU DO: Explain.
+True. 6 is greater than 2
 
 attendees = 9;
 meals = 8;
 puts attendees != meals
-# YOU DO: Explain.
+True. 9 is not equal to 8
 
 
 #-------------------
@@ -89,16 +89,24 @@ loves_treats = true
 age = 1
 
 # YOU DO:
-# Determine if the dog loves to play and loves treats
+irb(main):005:0> loves_to_play && loves_treats
+=> true
 
 
 # Determine if the dog loves to play and loves the dog park
-
+irb(main):006:0> loves_to_play && loves_dog_park
+=> false
 
 # Determine if the dog loves to play or loves the dog park
-
+irb(main):007:0> loves_to_play || loves_dog_park
+=> true
 
 # Determine if the dog loves to play and is a puppy
+irb(main):011:0> loves_to_play && age <= 1
+=> true
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+irb(main):011:0> loves_to_play && age <= 1
+=> true
+
+This is true. The puppy loves to play and is less than or equal to 1.
