@@ -34,10 +34,28 @@ end
 
 
 # Questions
-# 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+# 1. If Enlish, using technical vocabulary. Describe what is happening between lines 12 and 16.
+
+If the door_choice is 1 the bear is wearing a hat. If anything else the bear is wearing a scarf.
+
 # 2. What variable has a new value assigned to it after the first if statement executes?
+
+Bear clothing will have a new value is door_choice is equal to 1.
+
 # 3. If you changed the variable door_choice to equal 3, what would the bear_clothing value be?
+
+Bear_clothing will be a scarf if it has a value anything other than 1.
+
 # 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+
+If bear_choice is 1-3 it will have a designated outcome. Any other value than that will put the else outcome.
+
 # 5. If you changed the variable bear_choice to equal 3, what will be the final outcome be?
+
+"You run as fast as you can into the next room. It's full of snakes!"
+
 # 6. If you changed the variable door_choice to equal 1, and the variable bear_choice to equal 2, what will be the final outcome be?
+
+"You tell the bear the "hat" is too small and it starts to cry!"
 # 7. What is your favorite ending?
+Else outcome.
